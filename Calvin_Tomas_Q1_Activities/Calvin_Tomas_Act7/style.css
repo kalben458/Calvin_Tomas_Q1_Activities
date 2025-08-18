@@ -1,0 +1,19 @@
+h1{
+    color: #FF0000;
+}
+
+.firstP{
+    color: rgb(0, 118, 0);
+}
+
+.secondP{
+color: hsl(240,100%,50%);
+}
+
+body{
+    background-color: lightgray;
+}
+
+button{
+   background-color: orange;
+}
