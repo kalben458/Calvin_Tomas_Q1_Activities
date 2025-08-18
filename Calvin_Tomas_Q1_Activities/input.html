@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ala pa eh</title>
+    </head>
+
+    <body> 
+        
+        <form>
+        <hr>
+        <p><b>Personal Information</b></p>
+        <label for="Full name">Full name: </label>
+        <input type="text" id="Full name" name="Full name" maxlength="50">
+    <br>
+        <label for="email">Email Address: </label>
+    <input type="text" id="email" name="email" maxlength="50">
+<br>
+<label for="date">Date Of Birth</label>
+       <input type="date" id="date" name="date" min="1900-01-01" max="2025-12-31">
+    <hr>
+
+    <p><b>Account Details</b></p>
+<label for="username">Username:</label>
+<input type="text" id="username" name="username" maxlength="50">
+<br>
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" maxlength="50">    
+<hr>
+
+<p><b>Preferences</b></p>
+
+<label for="Plan">Subscription Plan: </label>
+<select name="" id="Plan">Plan
+
+<option value="Free">Free</option>
+<option value="online">Gcash</option>
+</select>
+
+<p>Notification Preferences:</p>
+<input type="checkbox" id="box">
+<label for="box">Email</label>
+<input type="checkbox" id="box2">
+<label for="box2">SMS</label>
+<input type="checkbox" id="box3">
+<label for="box3">Push Notifications</label>
+<hr>
+
+<p><b>Additional Information</b></p>
+<label for="comment">Brief Bio: </label>
+<textarea name="comment" id="comment" rows="10" cols="40"></textarea>
+
+<p>How did you hear about us?</p>
+<input type="radio" id="basic" value="social" name="basic">
+<label for="basic">Social Media</label>
+<input type="radio" id="basic2" value="friend" name="basic">
+<label for="basic2">Friend</label>
+<input type="radio" id="basic3" value="search" name="basic">
+<label for="basic3">Search Engine</label>
+<input type="radio" id="basic4" value="other" name="basic">
+<label for="basic4">Other</label>
+<hr>
+<label for=""><button>Clear Form</button></label>
+<label for=""><button>Register</button></label>
+</form>
+    </body>
+</html>
